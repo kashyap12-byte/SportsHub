@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="css/pl table 2.xsl"?>
+<STAT_LGOALS>
+	
+	<LGoal_player>
+		<RANK>1</RANK>
+		<NAME>OYARZABAL</NAME>
+		<GOALS>6</GOALS>
+	</LGoal_player>
+	
+	<LGoal_player>
+		<RANK>2</RANK>
+		<NAME>PACO ALCÁCER</NAME>
+		<GOALS>5</GOALS>
+	</LGoal_player>
+	
+	<LGoal_player>
+		<RANK>3</RANK>
+		<NAME>SUÁREZ</NAME>
+		<GOALS>5</GOALS>
+	</LGoal_player>
+
+	<LGoal_player>
+		<RANK>4</RANK>
+		<NAME>JOÃO FÉLIX</NAME>
+		<GOALS>5</GOALS>
+	</LGoal_player>
+
+	<LGoal_player>
+		<RANK>5</RANK>
+		<NAME>IAGO ASPAS</NAME>
+		<GOALS>4</GOALS>
+	</LGoal_player>
+
+</STAT_LGOALS>

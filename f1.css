@@ -1,0 +1,204 @@
+.logo-head
+{
+    cursor: pointer;
+}
+
+.body
+{
+	margin: 0;
+	font-family: sans-serif;
+	font-style: 11px ;
+	background: white;
+	background-attachment: fixed;
+}
+
+.table
+{
+	top: 50px;
+	position: relative;
+	width: 1000px;
+	
+
+}
+
+.table,th,td
+{
+	border: 2px solid black;
+	border-collapse: collapse;
+	opacity: 0.95;
+	color: black;
+}
+
+.th,td
+{
+	padding: 10px ;
+	text-align: center;
+}	
+
+.th
+{
+	font-weight: bold;
+}
+
+tr:nth-child(even)
+	{
+			background-color: #e8e8e8;
+	}
+
+tr:nth-child(odd)
+	{
+			background-color: white;
+	}
+
+#heading
+{
+	background-color: white;
+	color: black;
+}
+
+.car
+{
+	padding: 0 10px;
+    width: 200px;
+    height: 50px;
+}
+
+.logo
+{
+    padding: 0 20px;
+    width: 30px;
+    height: 30px;
+
+}
+
+.club-name
+{
+	text-align: left;
+}
+
+
+.f1-logo
+{
+	padding: 0 10px;
+    height: 120px;
+    width: 200px;
+}
+
+.form
+{
+	padding: 0 0px;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.logo1{
+	height: 68px;
+	width: 250px;
+    cursor: pointer;
+}
+
+li, a{
+	
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+
+header{ 
+	
+    display: flex;
+    align-items: center;
+    background-color: rgb(31, 29, 29); 
+    top: 0px;
+    
+}
+
+.nav-links{
+	
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.nav-links li {
+	
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.nav-links li a{
+	padding: 0;
+	margin: 0;
+    transition: ease 0s;
+
+}
+
+.nav-links li a:hover{
+	
+    color: #ff7f27;
+}
+
+.login-signup{
+	
+    list-style: none;
+}
+
+.login-signup li{
+	
+    display: inline-block;
+    
+}
+
+#button{
+	
+  margin-left: auto;
+  margin-right: 0;
+  padding: 0 20px;
+  
+}
+
+#log{
+	
+    background-color: #ff7f27;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+}
+#log:hover{
+	
+background-color: #ff9a43;
+
+}
+
+#sign{
+	
+    background-color: #ff7f27;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+#sign:hover{
+	
+    background-color: #ff9a43;
+}
+

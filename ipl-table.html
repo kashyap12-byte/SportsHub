@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="ipl table.css">
+	<title>IPL League Table</title>	
+	<script src="ipl_stats.js"></script>
+</head>
+
+<body class="body" bgcolor="#EDEEF0" onload="requestData()">
+
+	<header>
+       
+		<a href="index.html"> <img class=logo src="logo.png"alt="logo"> </a>
+		 <nav>
+			 <ul class="nav-links" id="Menuitems">
+
+				   <li><a href="cricket.html">Cricket</a></li>
+				   <li><a href="football.html">Football</a></li>
+				   <li><a href="f1-chess-kabaddi.html#f1-page">F1</a></li>
+				   <li><a href="f1-chess-kabaddi.html#chess-page">Chess</a></li>
+				   <li><a href="f1-chess-kabaddi.html#kabaddi-page">Kabaddi</a></li>
+			 </ul>
+			 
+		 </nav>
+		 <div id="button">
+			<a href="logout.php"><button type="button" id="log">Logout</button></a>
+			</div>
+			
+			 
+	 </header>
+
+	<table class="table" align="center">
+		<tr class="td">
+			<td id="heading" colspan="9"><img class="ipl-logo" src="IPL C/1.jpg" align="left"></td>
+		</tr>
+
+		<tr class="th">
+			<th>Position</th>
+			<th>Name</th>
+			<th>Played</th>
+			<th>Won</th>
+			<th>Lost</th>
+			<th>Net RR</th>
+			<th>Points</th>
+		</tr>
+
+		<tr class="th">
+			<th class="club-qualify">1</th>
+			<th class="club-qualify-name"><img class="logo1" src="IPL C/mi.png">Mumbai Indians</th>
+			<th class="club-qualify">8</th>
+			<th class="club-qualify">6</th>
+			<th class="club-qualify">2</th>
+			<th class="club-qualify">+1.35</th>
+			<th class="club-qualify">12</th>
+		</tr>
+
+		<tr class="th">
+			<th class="club-qualify">2</th>
+			<th class="club-qualify-name"><img class="logo1" src="IPL C/dc.png">Delhi Capitals</th>
+			<th class="club-qualify">8</th>
+			<th class="club-qualify">6</th>
+			<th class="club-qualify">2</th>
+			<th class="club-qualify">+0.99</th>
+			<th class="club-qualify">12</th>
+		</tr>
+
+		<tr class="th">
+			<th class="club-qualify">3</th>
+			<th class="club-qualify-name"><img class="logo1" src="IPL C/rcb.png">Royal Challengers Bangalore</th>
+			<th class="club-qualify">8</th>
+			<th class="club-qualify">5</th>
+			<th class="club-qualify">3</th>
+			<th class="club-qualify">-0.13</th>
+			<th class="club-qualify">10</th>
+		</tr>
+
+		<tr class="th">
+			<th class="club-qualify">4</th>
+			<th class="club-qualify-name"><img class="logo1" src="IPL C/kkr.png">Kolkata Knignt Riders</th>
+			<th class="club-qualify">8</th>
+			<th class="club-qualify">4</th>
+			<th class="club-qualify">4</th>
+			<th class="club-qualify">-0.68</th>
+			<th class="club-qualify">8</th>
+		</tr>
+
+		<tr class="th">
+			<th>5</th>
+			<th  class="club-name"><img class="logo1" src="IPL C/srh.jpg">Sunrisers Hyderabad</th>
+			<th>8</th>
+			<th>3</th>
+			<th>5</th>
+			<th>+0.00</th>
+			<th>6</th>
+		</tr>
+
+		<tr class="th">
+			<th>6</th>
+			<th  class="club-name"><img class="logo1" src="IPL C/csk.png">Chennai Super Kings</th>
+			<th>8</th>
+			<th>3</th>
+			<th>5</th>
+			<th>-0.39</th>
+			<th>6</th>
+		</tr>
+
+		<tr class="th">
+			<th>7</th>
+			<th  class="club-name"><img class="logo1" src="IPL C/rr.png">Rajasthan Royals</th>
+			<th>8</th>
+			<th>3</th>
+			<th>5</th>
+			<th>-0.84</th>
+			<th>6</th>
+		</tr>
+
+		<tr class="th">
+			<th>8</th>
+			<th  class="club-name"><img class="logo1" src="IPL C/kxip.jpg">Kings XI Punjab</th>
+			<th>8</th>
+			<th>2</th>
+			<th>6</th>
+			<th>-0.29</th>
+			<th>4</th>
+		</tr>
+
+	</table>
+
+	<h2 style="margin-top: 100px;" align="center">2020/21 PLAYER STATS</h2>
+  
+    <table align="center" id="ipl_stats_table" class="table"> 
+            <tr>
+              <th>Pos</th>
+              <th>Player</th>
+              <th>Mat</th>
+              <th>Inn</th>
+              <th>NO</th>
+              <th>Runs</th>
+              <th>HS</th>
+              <th>Avg</th>
+              <th>BF</th>
+              <th>SR</th>
+              <th>100</th>
+              <th>50</th>
+              <th>4s</th>
+              <th>6s</th>
+            </tr>
+    </table>
+
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="css/pl table 2.xsl"?>
+
+<STAT_LASSISTS>
+	
+	<LAssist_player>
+		<RANK>1</RANK>
+		<NAME>Harry Kane</NAME>
+		<ASSISTS>8</ASSISTS>
+	</LAssist_player>
+	
+	<LAssist_player>
+		<RANK>2</RANK>
+		<NAME>Jack Grealish</NAME>
+		<ASSISTS>5</ASSISTS>
+	</LAssist_player>
+	
+	<LAssist_player>
+		<RANK>3</RANK>
+		<NAME>John McGinn</NAME>
+		<ASSISTS>4</ASSISTS>
+	</LAssist_player>
+
+	<LAssist_player>
+		<RANK>4</RANK>
+		<NAME>Bruno Fernandes</NAME>
+		<ASSISTS>3</ASSISTS>
+	</LAssist_player>
+
+	<LAssist_player>
+		<RANK>5</RANK>
+		<NAME>Aaron Cresswell</NAME>
+		<ASSISTS>3</ASSISTS>
+	</LAssist_player>
+
+</STAT_LASSISTS>
+

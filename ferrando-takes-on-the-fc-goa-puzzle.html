@@ -1,0 +1,95 @@
+<html>
+<title>SportsHub</title>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    
+      rel="stylesheet">
+      <link rel="icon" href="l1.jpeg" type="image/gif" sizes="16x16">
+     <script src="javascript.js"></script> 
+      
+    <body bgcolor="#EDEEF0">
+
+
+
+
+        <div class="news-article-container" style="height: 750px;">
+            <img class="news-page-images" src="football/fernando-takes-on-the-fc-goa.jfif" alt="image">
+            <h2>Ferrando takes on the FC Goa puzzle, without the Lobera pieces in ISL 2020-21</h2>
+            <li class="news-page-more">Last season, FC Goa's last league stage game in the Indian Super League (ISL) saw them rock up at Jamshedpur knowing that a win would guarantee them a first place finish, and with it become the first Indian side to qualify for the group stages of the AFC Champions League proper</li>
+            <li class="news-page-more">Hugo Boumous and Ferran Corominas combined for the latter to score the first. Boumous added a second. He combined with Ahmed Jahouh to release Jackichand Singh for a third. He then passed it around with Edu Bedia and Carlos Pena before teeing up Mourtada Fall for an emphatic fourth. Boumous himself then ended it all with a flourish, a sublime finish after a quick Mandar Rao Dessai throw.</li>
+            <li class="news-page-more">That it came just two games after the sacking of former coach Sergio Lobera, the man who defined to the ISL what this Goa team was all about (goals, fun, more goals), was a statement. They didn't need the man. They were set. This was a team where everyone pulled together.</li>
+            <li class="news-page-more">Boumous, Jahouh, Fall, and Dessai followed their old manager, Lobera, to form a super-team at City Football Group-funded Mumbai City FC. Coro, that record ISL scorer extraordinaire, wasn't retained. Neither was Pena, so crucial to the team's defensive organisation. The core of a team that Goa had spent three years building... gone.</li>
+        </div>
+
+        <header>
+       
+            <a href="index.html"> <img class=logo src="logo.png"alt="logo"> </a>
+             <nav>
+                 <ul class="nav-links" id="Menuitems">
+   
+                       <li><a href="cricket.html">Cricket</a></li>
+                       <li><a href="football.html">Football</a></li>
+                       <li><a href="f1-chess-kabaddi.html#f1-page">F1</a></li>
+                       <li><a href="f1-chess-kabaddi.html#chess-page">Chess</a></li>
+                       <li><a href="f1-chess-kabaddi.html#kabaddi-page">Kabaddi</a></li>
+                 </ul>
+                 
+             </nav>
+             <div id="button">
+                <a href="logout.php"><button type="button" id="log">Logout</button></a>
+                </div>
+                <button class="checkbtn" onclick="menutoggle()"><i class="material-icons">menu</i></button>
+                <script>
+                   var Menuitems= document.getElementById("Menuitems");
+                   
+                   Menuitems.style.maxHeight="0px";
+                   
+                   function menutoggle(){
+                       if(Menuitems.style.maxHeight=="0px"){
+                           Menuitems.style.maxHeight="400px";
+                       }
+                       else{
+                           Menuitems.style.maxHeight="0px";
+                       }
+                   }
+               </script>
+                    
+                 </label>
+                 
+         </header>
+
+
+
+         <div class="container">
+            <ul class="featured-line">
+                <li><ins>Featured</ins></li>
+            </ul>
+            <ul class="featured-list">
+                
+                <li><img class="league-logo" src="logoipl.png" alt="logo"><a href="ipl-table.html">Ipl 2020</a></li>
+                <li><img class="league-logo" src="logolaliga.png" alt=""><a href="Liga-Table.html">LaLiga</a></li>
+                <li><img class="league-logo" src="logocl.png" alt="logo"><a href="cl.html">Champions League</a></li>
+                <li><img class="league-logo" src="logoisl.png" alt="logo"><a href="isl-table.html">ISL</a></li>
+                <li><img class="league-logo-pl" src="logopl.png" alt="logo"><a href="pl-table.html">Premier League</a></li>
+                <li><img class="league-logo" src="logopkl.png" alt="logo"><a href="prokab.html">ProKabaddi</a></li>
+                <li><img class="league-logo-f1" src="logof1.png" alt="logo"><a href="f1.html">F1</a></li>
+            </ul>
+        </div>
+       
+        <div class="quick-links-container">
+            <ul class="quick-links-line">
+                <li><ins>Quick Link</ins></li>
+            </ul>
+            <ul class="quick-links-list">
+                <li><img class="social-link-logo" src="facebook.png" alt="logo"><a href="#">Facebook</a></li>
+                <li><img class="social-link-logo" src="twitter.png" alt=""><a href="#">Twitter</a></li>
+                <li><img class="social-link-logo" src="instagram.png" alt="logo"><a href="#">Instagram </a></li>
+                <li><img class="social-link-logo" src="linkedin.png" alt="logo"><a href="#">Linked In</a></li>
+                
+            </ul>
+        </div>
+
+
+        

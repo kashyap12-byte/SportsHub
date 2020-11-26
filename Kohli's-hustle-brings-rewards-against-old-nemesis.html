@@ -1,0 +1,95 @@
+<html>
+<title>SportsHub</title>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    
+      rel="stylesheet">
+      <link rel="icon" href="l1.jpeg" type="image/gif" sizes="16x16">
+     <script src="javascript.js"></script> 
+      
+    <body bgcolor="#EDEEF0">
+
+
+
+
+        <div class="news-article-container">
+            <img class="news-page-images" src="ipl/kohli-nemesis.jpg" alt="Kohli running">
+            <h2>Kohli's hustle brings reward against old nemesis</h2>
+            <li class="news-page-more">The Dubai pitch was slow and two-paced. Virat Kohli had started slowly against one of the best death-bowling teams in IPL 2020. But, he rose above everything.</li>
+            <li class="news-page-more">He entered in the third over after Deepak Chahar had stormed through the defences of Aaron Finch with an inswinger. Devdutt Padikkal, the other opener, too was tentative against Chahar's swing. Kohli, though, stood outside the crease and resolutely defended him. He bedded in to calmly push the Royal Challengers to 65 for 1 in the tenth over.</li>
+            <li class="news-page-more">In the next over, Padikkal and AB de Villiers looked to force the pace off Shardul Thakur, but both were foxed by Thakur's cross-seamers. Then in the 15th, Kohli tried to force the pace against Sam Curran by shimmying out, but got too close to a bouncer and spliced it over the keeper for six. He had a sheepish smile and gesticulated that he had skied it off the back of the bat. This wasn't a track where you could simply throw your bat around and get away. That six was the only real risk that Kohli took until then and he managed to get away with it.</li>
+            <li class="news-page-more">Otherwise, he manipulated the field smartly by dinking the balls into the gaps. He ran like the wind and ramped up the pressure on the Super Kings' slow-moving legs. Even a gun outfielder like Faf du Plessis fumbled once as Kohli hustled for the second. Fifty of Kohli's 90 runs came via singles and doubles, and in all he faced a mere five dots in his 52 balls. He had reached his half-century off 39 balls when he got on top of the bounce and swivel-pulled Thakur to the boundary.</li>
+        </div>
+
+        <header>
+       
+            <a href="index.html"> <img class=logo src="logo.png"alt="logo"> </a>
+             <nav>
+                 <ul class="nav-links" id="Menuitems">
+   
+                       <li><a href="cricket.html">Cricket</a></li>
+                       <li><a href="football.html">Football</a></li>
+                       <li><a href="f1-chess-kabaddi.html#f1-page">F1</a></li>
+                       <li><a href="f1-chess-kabaddi.html#chess-page">Chess</a></li>
+                       <li><a href="f1-chess-kabaddi.html#kabaddi-page">Kabaddi</a></li>
+                 </ul>
+                 
+             </nav>
+             <div id="button">
+                <a href="logout.php"><button type="button" id="log">Logout</button></a>
+                </div>
+                <button class="checkbtn" onclick="menutoggle()"><i class="material-icons">menu</i></button>
+                <script>
+                   var Menuitems= document.getElementById("Menuitems");
+                   
+                   Menuitems.style.maxHeight="0px";
+                   
+                   function menutoggle(){
+                       if(Menuitems.style.maxHeight=="0px"){
+                           Menuitems.style.maxHeight="400px";
+                       }
+                       else{
+                           Menuitems.style.maxHeight="0px";
+                       }
+                   }
+               </script>
+                    
+                 </label>
+                 
+         </header>
+
+
+
+         <div class="container">
+            <ul class="featured-line">
+                <li><ins>Featured</ins></li>
+            </ul>
+            <ul class="featured-list">
+                
+                <li><img class="league-logo" src="logoipl.png" alt="logo"><a href="ipl-table.html">Ipl 2020</a></li>
+                <li><img class="league-logo" src="logolaliga.png" alt=""><a href="Liga-Table.html">LaLiga</a></li>
+                <li><img class="league-logo" src="logocl.png" alt="logo"><a href="cl.html">Champions League</a></li>
+                <li><img class="league-logo" src="logoisl.png" alt="logo"><a href="isl-table.html">ISL</a></li>
+                <li><img class="league-logo-pl" src="logopl.png" alt="logo"><a href="pl-table.html">Premier League</a></li>
+                <li><img class="league-logo" src="logopkl.png" alt="logo"><a href="prokab.html">ProKabaddi</a></li>
+                <li><img class="league-logo-f1" src="logof1.png" alt="logo"><a href="f1.html">F1</a></li>
+            </ul>
+        </div>
+       
+        <div class="quick-links-container">
+            <ul class="quick-links-line">
+                <li><ins>Quick Link</ins></li>
+            </ul>
+            <ul class="quick-links-list">
+                <li><img class="social-link-logo" src="facebook.png" alt="logo"><a href="#">Facebook</a></li>
+                <li><img class="social-link-logo" src="twitter.png" alt=""><a href="#">Twitter</a></li>
+                <li><img class="social-link-logo" src="instagram.png" alt="logo"><a href="#">Instagram </a></li>
+                <li><img class="social-link-logo" src="linkedin.png" alt="logo"><a href="#">Linked In</a></li>
+                
+            </ul>
+        </div>
+
+
+        

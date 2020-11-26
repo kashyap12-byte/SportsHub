@@ -1,0 +1,1740 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.logo{
+    cursor: pointer;
+}
+
+li, a{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+
+header{
+    position: sticky;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(31, 29, 29); 
+    top: 0;
+    
+}
+
+.nav-links{
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.nav-links li a{
+    transition: ease 0s;
+
+}
+
+.nav-links li a:hover{
+    color: #ff7f27;
+}
+
+.login-signup{
+    list-style: none;
+}
+
+.login-signup li{
+    display: inline-block;
+    
+}
+
+#button{
+  margin-left: auto;
+  margin-right: 0;
+  padding: 0 20px;
+  
+}
+
+#log{
+    background-color: #ff7f27;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+}
+#log:hover{
+background-color: #ff9a43;
+
+}
+
+#sign{
+    background-color: #ff7f27;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+#sign:hover{
+    background-color: #ff9a43;
+}
+
+.container{
+    margin-top: 30px;
+    margin-left: 120px;
+    width: 200px;
+    height: 350px;
+    top: 20px;
+    background-color: white;
+    border-radius: 20px;
+   
+}
+.featured-list{
+    list-style: none;  
+}
+
+.featured-list li{
+    padding: 10px 15;
+}
+.featured-list li a{
+    color: black;
+    font-size: 12;
+    font-weight: 500 ;
+    transition:  ease 0.5s;
+}
+
+.featured-list li a:hover{
+    color: #ff9a43;
+}
+
+.league-logo{
+    padding: 0 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.league-logo-pl{
+    padding: 0 5px;
+    width: 30px;
+    height: 20px;
+}
+
+.league-logo-f1{
+    padding: 0 10px;
+    width: 30px;
+    height: 20px;
+    
+}
+
+.featured-line li{
+    padding: 15px 0px 0px 25px;
+    list-style: none;
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+}
+
+.featured-sports-container{
+    
+    width: 200px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 120px;    
+    background-color: white;
+    border-radius: 20px;
+}
+
+.featured-sports-line li{
+    padding: 15px 0px 0px 20px;
+    list-style: none;
+    font-weight: 600;
+    font-size: 13px;
+    color: black;
+
+}
+
+.featured-sprots-list{
+    list-style: none;  
+}
+
+.featured-sports-list li{
+    list-style: none;
+    padding: 10px 15;
+    text-align: justify;
+}
+.featured-sports-list li a{
+    bottom: 100;
+    color: black;
+    font-size: 13;
+    font-weight: 500 ;
+    transition:  ease 0.5s;
+}
+
+.featured-sports-list li a:hover{
+    color: #ff9a43;
+}
+
+.featured-sports-list li i{  
+    padding: 0 10;
+    color: black;
+}
+
+.chess-logo{
+    padding: 0 0;
+    height: 20;
+    width: 20px;
+}
+.quick-links-container{
+    width: 200px;
+    height: 250px;
+    margin-top: 30px;
+    margin-left:120px ;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.quick-links-line li{
+    padding: 15px 0px 0px 20px;
+    list-style: none;
+    font-weight: 600;
+    font-size: 13px;
+    color: black;
+
+}
+
+.quick-links-list{
+    list-style: none;  
+}
+
+.quick-links-list li{
+    list-style: none;
+    padding: 10px 15;
+    text-align: justify;
+}
+.quick-links-list li a{
+    
+    padding: 0 15px;
+    bottom: 100;
+    color: black;
+    font-size: 13;
+    font-weight: 500 ;
+    transition:  ease 0.5s;
+}
+
+.quick-links-list li a:hover{
+    color: #ff9a43;
+}
+
+.quick-links-list li i{  
+    padding: 0 10;
+    color: black;
+}
+
+.social-link-logo{
+    margin-top: 10px;
+    margin-left: 20;
+    height: 20px;
+    width: 20px;
+}
+
+.headline-container{
+    position: absolute;
+    top: 90px;
+    right: 120px;
+    width: 320;
+    height: 350;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.headline-line li{
+    padding: 15px 0px 10px 20px;
+    list-style: none;
+    font-weight: 600;
+    font-size: 13px;
+    color: black;
+}
+
+.headline-list li{
+    color: silver;
+    list-style-position: inside;
+    padding-left: 9;
+    padding-top: 15px;
+    
+}
+
+.headline-list li a{
+    letter-spacing: 1;
+    line-height: 2;
+    color: #48494a;
+    font-size: 11;
+    font-stretch: expanded;
+
+}
+
+.headline-list li a:hover{
+    color: rgb(31, 31, 255);
+}
+
+.more-news-imgs-section{
+    position: absolute;
+    top: 470px;
+    right: 120px;
+    width: 310;
+    height: 2110;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.more-news-list {
+    padding-left: 15;  
+    list-style: none;
+    width: 280;
+}
+
+.more-news-list li a {
+    color: black;
+    
+}
+
+.more-news-img{
+    padding-top: 15;
+}
+
+#horizontal-line{
+    margin-top: 15;
+    width: 280;
+    height: 0.5px;
+    background-color: silver;
+}
+
+.news-articles-container-ipl{
+    position: absolute;
+    top: 100;
+    left: 350;
+    background-color: white;
+    border-radius: 10px;
+    height: 500px;
+    width: 680px; 
+}
+
+
+.ipl{
+    border-radius: 10px;
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    
+}
+
+.article-ipl-logo{
+    margin-top: 15;
+    margin-left: 15;
+    height: 25;
+    
+}
+
+.ipl span{
+    padding-left: 15
+    ;
+    color: black;
+    font-weight: bold;
+}
+
+.article-horizontal-line{
+    margin-left: 30     ;
+    margin-top: 15;
+    width: auto;
+    height: 0.5px;
+    background-color: silver;
+}
+
+.ipl-news-1{
+    margin-top: 70px ;   
+}
+.ipl-news-1:hover{
+    background-color: #f9f9fb;
+}
+
+.ipl-news-1 ul li{
+    padding-left: 30;
+    font-size: 12px;
+    font-weight: bold;
+    list-style: none;
+    color: black;
+}
+
+.result-ext{
+    list-style: none;
+    color: black;
+    font-size: 11;
+    padding-left: 30;
+}
+
+.ipl-teams-logo{
+    padding-left: 30;
+    padding-top: 5;
+    padding-bottom: 5;
+    height: 25;
+}
+
+.cricket-team-1{
+    
+    position: absolute;
+    top: 110;
+    padding-left: 60;
+    list-style: none;
+    font-weight: bold;
+    color: black;
+}
+
+.ipl-score{
+    padding-top: 15;
+    position: absolute;
+    right: 50;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.cricket-team-2{
+    position: absolute;
+    top: 140;
+    padding-left: 60 ;
+    list-style: none;
+    color: silver;
+}
+
+.ipl-score-2{
+    padding-top: 8;
+    position: absolute;
+    right: 45;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: silver;
+}
+
+.ipl-win-statement{
+    width: auto;
+    list-style: none;
+    color: black;
+    font-size: 11;
+    padding-left: 30;
+}
+
+.ipl-news-2{
+    
+    margin-left: 15;
+    margin-right: 15;
+    margin-top: 10;
+    border-radius: 15px;
+    border-width: 2px;
+    background-color: white;
+    border-color: #f7f7f7;
+    border-style: solid;
+}
+.ipl-news-2-headline:hover{
+    color: #0066cc;
+}
+
+.ipl-news-2-img{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.ipl-news-2-headline{
+    position: absolute;
+    padding-left: 15;
+    padding-top: 15;
+    width: auto;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.ipl-news-2-more-info{
+    position: absolute;
+    margin-top: 45;
+    width: auto;
+    padding-left: 15;
+    font-size: 15;
+    color: #48495b;
+
+}
+.ipl-news-2-editor-info{
+    position: absolute;
+    margin-top: 100;
+    width: auto;
+    padding-left: 15;
+    font-size: 12;
+    color: #48495b;
+
+}
+.ipl-news-3{
+    margin-left: 15;
+    margin-right: 15;
+    margin-top: 10;
+    border-radius: 15px;
+    border-width: 2px;
+    background-color: white;
+    border-color: #f7f7f7;
+    border-style: solid;
+    ;
+   
+}
+
+.ipl-news-3-img{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.ipl-news-3-headline{
+    position: absolute;
+    padding-left: 15;
+    padding-top: 15;
+    width: auto;
+    font-weight: bold;
+    color: black;
+}
+.ipl-news-3-headline:hover{
+    color: #0066cc;
+}
+
+.ipl-news-3-more-info{
+    position: absolute;
+    margin-top: 45;
+    width: auto;
+    padding-left: 15;
+    font-size: 15;
+    color: #48495b;
+
+}
+.ipl-news-3-editor-info{
+    position: absolute;
+    margin-top: 100;
+    width: auto;
+    padding-left: 15;
+    font-size: 12;
+    color: #48495b;
+
+}
+
+.news-articles-container-football{
+    position: absolute;
+    top: 620px;
+    left: 350;
+    background-color: white;
+    border-radius: 10px;
+    height: 550px;
+    width: 680px; 
+}
+
+.football-news-image{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    
+    
+}
+
+.football-news-headline{
+    padding-top: 10px;
+    padding-left: 10;
+    width: auto;
+    color: black;
+    font-weight: bolder;
+    font-size: 22;
+    letter-spacing: 1px;
+}
+
+
+.football-news-headline:hover{
+    color:#0066cc;
+}
+
+.football-news-more-info{
+    
+    letter-spacing: 0px;
+    font-weight: lighter;
+    font-size: 14;
+    color: #48495b;
+    
+}
+
+.football-news-1{
+    position: absolute;
+    margin-top: 10;
+    left: 20;
+    height: 133px;
+    width: 630px;
+    border-radius: 15px;
+    border-width: 2px;
+    background-color: white;
+    border-color: #f7f7f7;
+    border-style: solid;
+
+}
+.football-news-1-image{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px; 
+}
+.play-btn{
+    width: 100px;
+    position: absolute;
+    left: 70px;
+    top: 40px;
+    cursor: pointer;
+}
+
+.video-player{
+    justify-items: center;
+    width: 100%; 
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+
+.video-player-2{
+    justify-items: center;
+    width: 100%;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+
+.close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.football-news-1-headline{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    padding-left: 15;
+    padding-top: 15;
+    width: auto;
+    font-weight: bold;
+    color: black; 
+}
+
+.football-news-1-headline:hover{
+    color: #0066cc;
+}
+
+.football-news-1-more-info{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin-top: 45;
+    width: auto;
+    padding-left: 15;
+    font-size: 14;
+    color: #48495b;
+
+}
+.football-news-1-editor-info{
+    position: absolute;
+    margin-top: 110;
+    width: auto;
+    padding-left: 15;
+    font-size: 12;
+    color: #48495b;
+
+}
+
+.news-articles-container-f1{
+    position: absolute;
+    top: 1200px;
+    left: 350px;
+    height: 225px;
+    width: 680px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+.f1-tag{
+    border-radius: 10px;
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    
+}
+
+.f1-logo{
+    margin-top: 20px;
+    margin-left: 15px;
+    height: 40px;
+    
+}
+
+.formula-one-line{  
+    position: absolute;
+    padding-left: 15;
+    top: 30;
+    font-weight: bolder;
+    color: black;
+}
+
+.f1-news-1{
+    position: absolute;
+    margin-top: 70;
+    left: 20;
+    height: 133;
+    width: 630px;
+    border-radius: 15px;
+    border-width: 2px;
+    background-color: white;
+    border-color: #f7f7f7;
+    border-style: solid;
+
+}
+
+.f1-news-1-image{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+}
+
+.f1-news-1-headline{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    padding-left: 15;
+    padding-top: 5;
+    width: auto;
+    font-weight: bold;
+    color: black;  
+}
+
+.f1-news-1-headline:hover{
+    color: #0066cc;
+}
+
+.f1-news-1-more-info{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin-top: 50;
+    width: auto;
+    padding-left: 15;
+    font-size: 13;
+    color: #48495b;
+
+}
+.f1-news-1-editor-info{
+    position: absolute;
+    margin-top: 110;
+    width: auto;
+    padding-left: 15;
+    font-size: 12;
+    color: #48495b;
+
+}
+
+.news-articles-container-ipl-1{
+    position: absolute;
+    top: 1450;
+    left: 350;
+    background-color: white;
+    border-radius: 10px;
+    height: 500px;
+    width: 680px; 
+}
+
+
+
+.news-articles-container-chess{
+    position: absolute;
+    top: 1980px;
+    left: 350px;
+    height: 225px;
+    width: 680px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+.chess-tag{
+    border-radius: 10px;
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    
+}
+
+.chess-logo{
+    margin-top: 20px;
+    margin-left: 15px;
+    height: 30px;
+    width: 30;
+    
+}
+
+.chess-one-line{  
+    position: absolute;
+    padding-left: 15;
+    top: 25 ;
+    font-weight: bolder;
+    color: black;
+}
+
+.chess-news-1{
+    position: absolute;
+    margin-top: 70;
+    left: 20;
+    height: 133;
+    width: 630px;
+    border-radius: 15px;
+    border-width: 2px;
+    background-color: white;
+    border-color: #f7f7f7;
+    border-style: solid;
+}
+.chess-news-1-headline:hover{
+    color: #0066cc;
+
+}
+
+.chess-news-1-image{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+}
+
+.chess-news-1-headline{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    padding-left: 15;
+    padding-top: 5;
+    width: auto;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.chess-news-1-more-info{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin-top: 50;
+    width: auto;
+    padding-left: 15;
+    font-size: 13;
+    color: #48495b;
+
+}
+.chess-news-1-editor-info{
+    position: absolute;
+    margin-top: 110;
+    width: auto;
+    padding-left: 15;
+    font-size: 12;
+    color: #48495b;
+
+}
+
+.news-articles-container-football-1{
+    position: absolute;
+    top: 2220px;
+    left: 350;
+    background-color: white;
+    border-radius: 10px;
+    height: 650px;
+    width: 680px; 
+}
+
+.footer{
+    margin-bottom: 15px;
+    margin-left: 230;
+    margin-top: 1850;
+    width: 900;
+    height: 400;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+.news-articles-container-kabaddi{
+    position: absolute;
+    top: 1240px;
+    left: 350px;
+    height: 225px;
+    width: 680px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+.kabaddi-tag{
+    border-radius: 10px;
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    
+}
+
+.kabaddi-logo{
+    margin-top: 20px;
+    margin-left: 15px;
+    height: 30px;
+    width: 30;
+    
+}
+
+.kabaddi-one-line{  
+    position: absolute;
+    padding-left: 15;
+    top: 25 ;
+    font-weight: bolder;
+    color: black;
+}
+
+.kabaddi-news-1{
+    position: absolute;
+    margin-top: 70;
+    left: 20;
+    height: 133;
+    width: 630px;
+    border-radius: 15px;
+    border-width: 2px;
+    background-color: white;
+    border-color: #f7f7f7;
+    border-style: solid;
+}
+.kabaddi-news-1-headline:hover{
+    color: #0066cc;
+
+}
+
+.kabaddi-news-1-image{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+}
+
+.kabaddi-news-1-headline{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    padding-left: 15;
+    padding-top: 5;
+    width: auto;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.kabaddi-news-1-more-info{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin-top: 50;
+    width: auto;
+    padding-left: 15;
+    font-size: 13;
+    color: #48495b;
+
+}
+.kabaddi-news-1-editor-info{
+    position: absolute;
+    margin-top: 110;
+    width: auto;
+    padding-left: 15;
+    font-size: 12;
+    color: #48495b;
+
+}
+
+.news-article-container{
+    background-color: white;
+    width: 700px;
+    height: auto;
+    position: absolute;
+    top: 100px;
+    left: 375px;
+    border-radius: 25px;
+}
+
+.news-page-images{
+    width: 700px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+h2{
+    letter-spacing: 2px;
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+.news-page-more{
+    letter-spacing: 1px;
+    padding-top: 15px;
+    padding-left: 10px;
+    list-style: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+.scoreboard-sport{
+    border: 1px solid gray;
+    border-radius: 30%20%; 
+    background-color:#edeef0 ; 
+     max-width: auto; 
+    text-align: center;
+}
+
+.score-container{
+   position: absolute;
+    top: 480px;
+    right: 120px;
+    width: 290;
+    height: 1610;
+    background-color: white;
+    border-radius: 20px;
+    padding: 16px;
+    text-align: center;
+
+   
+}
+
+.score-title-box{
+    margin: 25px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    font-size: 1.5rem;
+   
+    
+}
+.score-title-box #goals{
+    font-size: 1.2rem;
+}
+.team{
+    width: 90px;
+}
+.team img{
+    height: 44px;
+    width: 44px;
+}
+
+.score-team-list{
+    padding-left: 15;  
+    list-style: none;
+    width: 280;
+}
+#hr-line{
+    margin-top: 3;
+    width: auto;
+    height: 0.5px;
+    background-color: silver;
+}
+li p{
+    color:black;
+}
+
+
+
+
+#profile
+{
+padding:50px;
+border:1px dashed grey;
+font-size:20px;
+background-color:#DCE6F7
+}
+
+
+
+
+.news-articles-container-football-1-rwd{
+    top: 700;
+}
+
+.news-articles-container-football-2-rwd{
+    top: 2000;
+}
+
+.news-articles-container-football-rwd{
+    top: 1410;
+}
+
+.news-articles-container-f1-page{
+    top: 120;
+}
+.news-articles-container-f1-page-1{
+    top: 400;
+}
+
+.news-articles-container-chess-page{
+    top: 680;
+}
+
+.news-articles-container-chess-page-1{
+    top: 960;
+}
+.news-articles-container-kabaddi-page-1{
+    top: 1530 ;
+}
+@media only screen and (max-width: 1495px){
+
+    .more-news-imgs-section{
+        display: none;
+    }
+    .headline-container{
+        display: none;
+    }
+    .news-articles-container-ipl{
+        width: 70%;   
+    }
+    .news-articles-container-football{
+        width: 70%;
+        
+    }
+    .football-news-image{
+        height: 60%;
+    }
+
+    .football-news-1{
+        width: 95%;
+    }
+
+    .news-articles-container-f1{
+        width: 70%;
+    }
+
+    .news-articles-container-ipl-1{
+        width: 70%;
+    }
+
+    .news-articles-container-chess{
+        width: 70%;
+    }
+    
+    .f1-news-1{
+        width: 95%;
+    }
+    .chess-news-1{
+        width: 95%;
+    }
+
+    .news-articles-container-football-1{
+        width: 70%;
+        
+    }
+
+    .news-articles-container-kabaddi{
+        width: 70%;
+    }
+
+    
+
+.kabaddi-news-1{
+        width: 95%;
+    }
+
+    .footer{
+        margin-left: 350;
+        width: 70%;
+    }
+
+}
+    
+    @media only screen and (max-width: 1300px){
+
+
+        .news-article-container{
+          left: 200px;
+        }
+
+    
+
+        .featured-sports-container{
+            display: none;
+        }
+        .quick-links-container{
+            display: none;
+        }
+        .container{
+            display: none;
+        }
+
+        .news-articles-container-ipl{
+            left: 10%;
+            width: 80%;
+        }
+
+        .news-articles-container-football{
+            left: 10%;
+            width: 80%;
+            
+        }
+        .football-news-image{
+            height: 55%;
+        }
+    
+        .football-news-1{
+            width: 95%;
+        }
+    
+        .news-articles-container-f1{
+            left: 10%;
+            width: 80%;
+        }
+    
+        .news-articles-container-ipl-1{
+            left: 10%;
+            width: 80%;
+        }
+    
+        .news-articles-container-chess{
+            left: 10%;
+            width: 80%;
+        }
+        
+        .f1-news-1{
+            width: 95%;
+        }
+        .chess-news-1{
+            width: 95%;
+        }
+
+
+        .news-articles-container-kabaddi{
+            left: 10%;
+            width: 80%;
+        }
+        .kabaddi-news-1{
+            width: 95%;
+        }
+    
+        .news-articles-container-football-1{
+            left: 10%;
+            width: 80%;
+            
+        }
+
+        .footer{
+            display: none;
+        }
+
+    }
+
+    @media only screen and (max-width:950px){
+        .news-article-container{
+            left: 100px;
+        }
+
+    }
+
+    
+   
+
+@media only screen and (max-width: 870px){
+
+   .news-article-container{
+       height: auto;
+       left: 150px;
+       width: 500px;
+   }
+
+   .news-page-images{
+       width: 500px;
+   }
+
+    .checkbtn{
+        display: inline-block;
+        
+    }
+    
+    #log{
+        display: none;
+    }
+
+    #sign{
+        display: none;
+    }
+
+    .nav-links{
+        position: absolute;
+        top: 68px;
+        width: 100%;
+        background-color: white;
+        left: 0;
+        text-align: center;
+        overflow: hidden;
+        transition: all 0.5s;
+        
+    }
+
+    .nav-links li{
+        display: block;
+        margin-top: 30;
+        margin-bottom: 30;
+    }
+
+    .nav-links li a{
+        color: black;
+    }
+
+}
+
+@media only screen and (max-width:720px){
+
+    .f1-news-1-headline{
+        font-size: 14px;
+    }
+
+    .f1-news-1-more-info{
+        padding-top: 20px;
+        font-size: 10px;
+    }
+
+    .f1-news-1-editor-info{
+        padding-top: 40px;
+    }
+
+    .news-articles-container-f1{
+        height: 250px;
+    }
+    .f1-news-1{
+        left: 10;
+       height: 170px;
+    }
+    .f1-news-1-image{
+        height: 170px;
+        width: 200px;
+    }
+
+
+    .chess-news-1-headline{
+        font-size: 14px;
+    }
+
+    .chess-news-1-more-info{
+        padding-top: 20px;
+        font-size: 10px;
+    }
+
+    .chess-news-1-editor-info{
+        padding-top: 40px;
+    }
+
+    .news-articles-container-chess{
+        height: 250px;
+    }
+    .chess-news-1{
+        left: 10;
+       height: 170px;
+    }
+    .chess-news-1-image{
+        height: 170px;
+        width: 200px;
+    }
+
+
+
+
+    .kabaddi-news-1-headline{
+        font-size: 14px;
+    }
+
+    .kabaddi-news-1-more-info{
+        padding-top: 20px;
+        font-size: 10px;
+    }
+
+    .kabaddi-news-1-editor-info{
+        padding-top: 40px;
+    }
+
+    .news-articles-container-kabaddi{
+        height: 250px;
+    }
+    .kabaddi-news-1{
+        left: 10;
+       height: 170px;
+    }
+    .kabaddi-news-1-image{
+        height: 170px;
+        width: 200px;
+    }
+
+
+
+
+
+
+    .news-page-images{
+        width: 400px;
+    }
+    .news-article-container{
+        height: auto;
+        width: 400px;
+        left: 150px;
+    }
+
+    .ipl-news-2-more-info{
+        margin-top: 55px;
+        font-size: 12px;
+    }
+
+    .ipl-news-3-more-info{
+        margin-top: 55px;
+        font-size: 12px;
+
+    }
+    
+}
+
+@media only screen and (max-width:550px){
+    .news-page-images{
+        width: 300px;
+    }
+    .news-article-container{
+        height: auto;
+        width: 300px;
+        left: 100px;
+    }
+
+}
+
+@media only screen and (max-width: 420px){ 
+
+    #f1-page-1{
+        top: 100px;
+    }
+
+    #f1-page-2{
+        top: 350px;
+    }
+
+    #chess-page-1{
+        top: 600px;
+    }
+
+    #chess-page-2{
+        top: 850px;
+    }
+
+    #kabaddi-page-1{
+        top: 1100px;
+    }
+
+    #kabaddi-page-2{
+        top: 1350;
+    }
+
+    .f1-news-1-headline{
+        font-size: 12px;
+    }
+
+    .f1-news-1-more-info{
+        padding-top: 0px;
+        font-size: 10px;
+    }
+
+    .f1-news-1-editor-info{
+        padding-top: 0px;
+    }
+
+    .news-articles-container-f1{
+        height: 230px;
+    }
+    .f1-news-1{
+        left: 10;
+       height: 133px;
+    }
+    .f1-news-1-image{
+        height: 250px;
+        width: 200px;
+    }
+
+
+    .chess-news-1-headline{
+        font-size: 14px;
+    }
+
+    .chess-news-1-more-info{
+        padding-top: 20px;
+        font-size: 10px;
+    }
+
+    .chess-news-1-editor-info{
+        padding-top: 0px;
+    }
+
+    .news-articles-container-chess{
+        height: 230px;
+    }
+    .chess-news-1{
+        left: 10;
+       height: 133px;
+    }
+    .chess-news-1-image{
+        height: 170px;
+        width: 200px;
+    }
+
+
+
+
+    .kabaddi-news-1-headline{
+        font-size: 14px;
+    }
+
+    .kabaddi-news-1-more-info{
+        padding-top: 20px;
+        font-size: 10px;
+    }
+
+    .kabaddi-news-1-editor-info{
+        padding-top: 0px;
+    }
+
+    .news-articles-container-kabaddi{
+        height: 230px;
+    }
+    .kabaddi-news-1{
+        left: 10;
+       height: 133px;
+    }
+    .kabaddi-news-1-image{
+        height: 170px;
+        width: 200px;
+    }
+
+
+    .news-page-images{
+        width: 300px;
+    }
+    .news-article-container{
+        height: auto;
+        width: 300px;
+        left: 50px;
+    }
+    .ipl-news-3-rwd{
+        height: 200px;
+
+    }
+
+    .cricket-team-1{
+        font-size: 12px;
+        top: 120;
+    }
+    .cricket-team-2{
+        font-size: 12px;
+        top: 155;
+    }
+
+    .ipl-score {
+        font-size: 10px;
+    }
+    .ipl-score-2{
+        font-size: 10px;
+        padding-top: 12px;
+
+    }
+    .ipl-news-2-img, .ipl-news-3-img{ 
+    height: 100px;
+    width: 150px;
+    }
+
+    .ipl-news-2-headline, .ipl-news-3-headline{
+        
+        padding-left: 10px;
+        width: 100;
+        font-size: 8px;
+    }
+
+    
+    .ipl-news-2-more-info, .ipl-news-3-more-info{
+        margin-top: 45;
+        padding-left: 10px;
+        font-size: 8px;
+        width: 100;
+    }
+    .ipl-news-2-editor-info, .ipl-news-3-editor-info{
+        margin-top: 85px;
+        padding-left: 10px;
+        font-size: 8px;
+        width: 100;
+    }
+
+    .news-articles-container-football, .news-articles-container-football-1{
+        height: 400;
+    }
+
+    .football-news-image{
+        width: 300;
+        height: 150;
+    }
+
+    .football-news-headline{
+        font-size: 10px;
+    }
+    .football-news-more-info{
+        font-size: 10px;
+    }
+
+    .football-news-1{
+        height: 140px;
+        left: 5;
+    }
+    .football-news-1-image{
+        width: 150px;
+        height: 140;
+    }
+
+    .play-btn{
+        left: 30;
+    }
+
+    .football-news-1-headline, .football-news-1-more-info{
+        font-size: 10px;
+    }
+
+    .football-news-1-editor-info{
+        padding-top: 15;
+        font-size: 10px;
+    }
+
+    .news-articles-container-f1{
+        top: 1050;
+    }
+    .f1-news-1{
+        left: 5px;
+    }
+    .f1-news-1-image{
+        width: 150px;
+        height: 135px;
+    }
+
+    .f1-news-1-headline{
+        font-size: 10px;
+    }
+    .f1-news-1-more-info{
+        padding-top: 5px;
+        font-size: 8px;
+    }
+
+    .f1-news-1-editor-info{
+        font-size: 10px;
+    }
+
+    .news-articles-container-ipl-1{
+        top: 1300;
+    }
+
+    .chess-news-1{
+        left: 5;
+    }
+    .chess-news-1-image{
+        width: 150px;
+        height: 135px;
+    }
+
+    .chess-news-1-headline{
+        font-size: 10px;
+    }
+    .chess-news-1-more-info{
+        padding-top: 5px;
+        font-size: 8px;
+    }
+
+    .chess-news-1-editor-info{
+        font-size: 10px;
+    }
+
+    .news-articles-container-chess{
+        top: 1830;
+    }
+
+
+
+    .kabaddi-news-1{
+        left: 5;
+    }
+    .kabaddi-news-1-image{
+        width: 150px;
+        height: 135px;
+    }
+
+    .kabaddi-news-1-headline{
+        font-size: 10px;
+    }
+    .kabaddi-news-1-more-info{
+        padding-top: 5px;
+        font-size: 8px;
+    }
+
+    .kabaddi-news-1-editor-info{
+        font-size: 10px;
+    }
+
+    .news-articles-container-kabaddi{
+        top: 1830;
+    }
+
+
+    .news-articles-container-football-1{
+        top: 2080;
+    }
+
+    #football-1-1{
+            top: 550;
+    }
+    #football-1-3{
+        top: 1000;
+}
+
+    #football-2{
+        top: 1450;
+    }
+
+}
+
+

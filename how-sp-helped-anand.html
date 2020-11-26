@@ -1,0 +1,95 @@
+<html>
+<title>SportsHub</title>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    
+      rel="stylesheet">
+      <link rel="icon" href="l1.jpeg" type="image/gif" sizes="16x16">
+     <script src="javascript.js"></script> 
+      
+    <body bgcolor="#EDEEF0">
+
+
+
+
+        <div class="news-article-container" style="height: 900px;">
+            <img class="news-page-images" src="chess/spb-anand.jfif"alt="image">
+            <h2>How SP Balasubrahmanyam helped teenage Viswanathan Anand with a break</h2>
+            <li class="news-page-more">The year was 1983 and 13-year-old Viswanathan Anand was part of a junior chess team, the Madras Colts. They were in trouble, on the verge of dropping out of the National Team Championship -- to be hosted at the IIT Bombay, Powai campus -- because the Madras District Chess Association (MDCA), which had decided to send its representation of junior players for the tournament, had no money to fund their participation. It's when legendary Indian playback singer SP Balasubrahmanyam, who died on Friday, stepped in, volunteering to sponsor the team. Anand beat 9-time national champion Manuel Aaron in that tournament and eventually ended up winning the top board prize.</li>
+            <li class="news-page-more">"What I remember of that story was that the famous Telugu poet and writer Aarudhra who was involved in chess [MDCA president then] had requested SPB to sponsor the Madras Colts team," Anand told ESPN about his first sponsor, "For me, it was a big break. That top board prize got me a chance to play the National 'b' and subsequently the National 'a' and it was my breakthrough year."</li>
+            <li class="news-page-more">The story goes that SPB was recording a song penned by Aarudhra at the Vijaya Gardens studio in Chennai when the latter requested him to write out a cheque. Without asking any questions, SPB handed his close friend a blank check. He was then told that it was for funding the participation of four young chess players from the city at a national tournament. When teenaged Anand got to know about SPB's gesture, he somewhat embarrassingly recalls thinking of offering the pocket money that his mother had given him for the trip to the late singer as a return gift.</li>
+
+            </div>
+
+        <header>
+       
+            <a href="index.html"> <img class=logo src="logo.png"alt="logo"> </a>
+             <nav>
+                 <ul class="nav-links" id="Menuitems">
+   
+                       <li><a href="cricket.html">Cricket</a></li>
+                       <li><a href="football.html">Football</a></li>
+                       <li><a href="f1-chess-kabaddi.html#f1-page">F1</a></li>
+                       <li><a href="f1-chess-kabaddi.html#chess-page">Chess</a></li>
+                       <li><a href="f1-chess-kabaddi.html#kabaddi-page">Kabaddi</a></li>
+                 </ul>
+                 
+             </nav>
+             <div id="button">
+                <a href="logout.php"><button type="button" id="log">Logout</button></a>
+                </div>
+                <button class="checkbtn" onclick="menutoggle()"><i class="material-icons">menu</i></button>
+                <script>
+                   var Menuitems= document.getElementById("Menuitems");
+                   
+                   Menuitems.style.maxHeight="0px";
+                   
+                   function menutoggle(){
+                       if(Menuitems.style.maxHeight=="0px"){
+                           Menuitems.style.maxHeight="400px";
+                       }
+                       else{
+                           Menuitems.style.maxHeight="0px";
+                       }
+                   }
+               </script>
+                    
+                 </label>
+                 
+         </header>
+
+
+
+         <div class="container">
+            <ul class="featured-line">
+                <li><ins>Featured</ins></li>
+            </ul>
+            <ul class="featured-list">
+                
+                <li><img class="league-logo" src="logoipl.png" alt="logo"><a href="ipl-table.html">Ipl 2020</a></li>
+                <li><img class="league-logo" src="logolaliga.png" alt=""><a href="Liga-Table.html">LaLiga</a></li>
+                <li><img class="league-logo" src="logocl.png" alt="logo"><a href="cl.html">Champions League</a></li>
+                <li><img class="league-logo" src="logoisl.png" alt="logo"><a href="isl-table.html">ISL</a></li>
+                <li><img class="league-logo-pl" src="logopl.png" alt="logo"><a href="pl-table.html">Premier League</a></li>
+                <li><img class="league-logo" src="logopkl.png" alt="logo"><a href="prokab.html">ProKabaddi</a></li>
+                <li><img class="league-logo-f1" src="logof1.png" alt="logo"><a href="f1.html">F1</a></li>
+            </ul>
+        </div>
+       
+        <div class="quick-links-container">
+            <ul class="quick-links-line">
+                <li><ins>Quick Link</ins></li>
+            </ul>
+            <ul class="quick-links-list">
+                <li><img class="social-link-logo" src="facebook.png" alt="logo"><a href="#">Facebook</a></li>
+                <li><img class="social-link-logo" src="twitter.png" alt=""><a href="#">Twitter</a></li>
+                <li><img class="social-link-logo" src="instagram.png" alt="logo"><a href="#">Instagram </a></li>
+                <li><img class="social-link-logo" src="linkedin.png" alt="logo"><a href="#">Linked In</a></li>
+                
+            </ul>
+        </div>
+
+
+        

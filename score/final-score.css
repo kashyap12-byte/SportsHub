@@ -1,0 +1,60 @@
+
+.scoreboard-sport{
+    border: 1px solid gray;
+    border-radius: 30%20%; 
+    background-color:#edeef0 ; 
+     max-width: auto; 
+    text-align: center;
+}
+
+.score-container{
+   position: absolute;
+    top: 480px;
+    right: 120px;
+    width: 290;
+    height: 1610;
+    background-color: white;
+    border-radius: 20px;
+    padding: 16px;
+    text-align: center;
+
+   
+}
+
+.score-title-box{
+    margin: 25px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    font-size: 1.5rem;
+   
+    
+}
+.score-title-box #goals{
+    font-size: 1.2rem;
+}
+.team{
+    width: 90px;
+}
+.team img{
+    height: 44px;
+    width: 44px;
+}
+
+.score-team-list{
+    padding-left: 15;  
+    list-style: none;
+    width: 280;
+}
+#hr-line{
+    margin-top: 3;
+    width: auto;
+    height: 0.5px;
+    background-color: silver;
+}
+li p{
+    color:black;
+}

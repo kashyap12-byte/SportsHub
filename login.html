@@ -1,0 +1,156 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sports-Hub Registration Form</title>
+	<link rel="stylesheet" href="login.css">
+	<link rel="icon" href="l1.jpeg" type="image/gif" sizes="16x16">
+</head>
+<body>
+
+<div class="background">
+<div class="login-wrap">
+	 
+	<div class="login-html">
+		<input id="tab-1" type="radio" name="tab" class="log-in" checked>
+		<label for="tab-1" class="tab">Log In</label>
+		<input id="tab-2" type="radio" name="tab" class="sign-up">
+		<label for="tab-2" class="tab">Sign Up</label>
+		<div class="login-form">
+			<form action="login-server.php" method="POST">
+			<div class="log-in-html">
+				
+				<div class="group">
+					<label for="user" class="label">Username</label>
+					<input id="userid" type="text" name="username" class="input" placeholder="Username">
+				</div>
+				<div class="group">
+					<label for="password" class="label">Password</label>
+					<input id="password" type="password" name="password" class="input" data-type="password" placeholder="Password">
+				</div>
+				<div class="group">
+					<input id="check" type="checkbox" class="check" checked>
+					<label for="check"><span class="icon"></span> Keep me Signed in</label>
+				</div>
+				<div class="group">
+					<input type="submit" class="button" name="login_user" value="Sign In">
+				</div>
+			    </form>
+				<div class="hr"></div>
+				<div class="foot-lnk">
+					<label for="tab-2">New Member?</label>
+				</div>
+			</div>
+		    </form>
+		    <form action="reg-server.php" method="POST">
+		    	
+			<div class="sign-up-html">
+			
+				<div class="group">
+					<label for="user" class="label">Username</label>
+					<input id="user" type="text"  name="username" class="input" placeholder="Username" >
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Password</label>
+					<input id="pass" type="password" name="password_1" class="input" />
+				</div>
+				<div class="group">
+					<label for="cnfm_pass" class="label">Confirm Password</label>
+					<input id="cnfm_pass" type="password" name="password_2" class="input"/>
+				</div>
+				<div class="group">
+					<label for="email" class="label">Email Address</label>
+					<input id="email" type="email" class="input" name="email" placeholder="xyz@mail.com" >
+				</div>
+				<div class="group">
+					<label  class="label">Select Your Favorite Sport</label>
+					<input  type="text" class="input" list="fav-sport" placeholder="Optional" name="fav-sport" >
+				     <datalist id="fav-sport">
+				     	
+   						 <option>Cricket</option>
+  					     <option>Football</option>
+   						 <option>F1</option>
+  					     <option>Chess</option>
+  					     <option>Kabaddi</option>
+				     </datalist>
+				 </div>
+				<div class="group">
+					<input type="submit" class="button" name ="reg_user" value="Sign Up" onclick="return Validate()"/>
+				</div>
+			    
+				<div class="hr"></div>
+				<div class="foot-lnk">
+					<label for="tab-1">Already Member?</label>
+				</div>
+			</div>
+		    </form>
+		</div>
+	</div>
+	
+</div>
+</div>
+<script type="text/javascript">
+	 function Validate() {
+		var Username = document.getElementById("user").value
+        var password = document.getElementById("pass").value;
+        var confirmPassword = document.getElementById("cnfm_pass").value;
+		var strength = 0;
+		if(Username == "")
+		{
+			alert("Username cannot be empty");
+			return false;
+		}
+        if (password == "") {
+            alert("Field cannot be empty.");
+        }
+		else if(password.length >6 && password.length <12)
+       	{
+       		
+       		if(password.match(/[a-z]/)){
+       		strength += 1;
+       		}
+       		if(password.match(/[A-Z]/)){
+       		strength += 1;
+       		}
+       		if(password.match(/[0-9]/)){
+       		strength +=1;
+       		}
+       		if(password.match(/[!@#$%^&*?_~]/)){
+       		strength +=1;
+       	}
+       		switch(strength){
+       		case 0: alert("too weak")
+					return false
+					break
+					
+       		case 1: alert("Password is too weak")
+			  		 return false
+					 break
+					
+       		case 2: alert("Pasword is weak")
+					return false
+       				break
+       		case 3: alert("Strong")
+       				break
+       		case 4: alert("very Strong")
+       				break
+			   }
+		}
+		else if(password.length < 6){
+			alert("password should be greater than 6 character");
+			return false
+		}
+        else if (password != confirmPassword) {
+        	alert("Password didn't match try again.");
+        	return false
+        }
+        else if (password == confirmPassword) {
+        	alert("Password match.");
+        }
+        return true;
+    }
+</script>
+
+</body>
+</html>

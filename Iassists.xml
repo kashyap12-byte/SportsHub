@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="css/isl table.xsl"?>
+
+<ISTAT_ASSISTS>
+	
+	<IAssist_player>
+		<RANK>1</RANK>
+		<NAME>Hugo Boumous</NAME>
+		<ASSISTS>10</ASSISTS>
+	</IAssist_player>
+	
+	<IAssist_player>
+		<RANK>2</RANK>
+		<NAME>Rafael Crivellaro</NAME>
+		<ASSISTS>8</ASSISTS>
+	</IAssist_player>
+	
+	<IAssist_player>
+		<RANK>3</RANK>
+		<NAME>Brandon Fernandes</NAME>
+		<ASSISTS>7</ASSISTS>
+	</IAssist_player>
+
+	<IAssist_player>
+		<RANK>4</RANK>
+		<NAME>Nerijus Valskis</NAME>
+		<ASSISTS>6</ASSISTS>
+	</IAssist_player>
+
+	<IAssist_player>
+		<RANK>5</RANK>
+		<NAME>Anirudh Thapa</NAME>
+		<ASSISTS>6</ASSISTS>
+	</IAssist_player>
+
+</ISTAT_ASSISTS>

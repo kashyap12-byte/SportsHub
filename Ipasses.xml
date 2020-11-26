@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="css/isl table.xsl"?>
+<STAT_PASSES>
+	
+	<Pass_player>
+		<RANK>1</RANK>
+		<NAME>Ahmed Jahouh</NAME>
+		<PASSES>1279</PASSES>
+	</Pass_player>
+	
+	<Pass_player>
+		<RANK>2</RANK>
+		<NAME>Dimas Delgado</NAME>
+		<PASSES>1188</PASSES>
+	</Pass_player>
+	
+	<Pass_player>
+		<RANK>3</RANK>
+		<NAME>Aitor Monroy</NAME>
+		<PASSES>1129</PASSES>
+	</Pass_player>
+
+	<Pass_player>
+		<RANK>4</RANK>
+		<NAME>Carlos Pena</NAME>
+		<PASSES>1053</PASSES>
+	</Pass_player>
+
+	<Pass_player>
+		<RANK>5</RANK>
+		<NAME>Lenny Rodrigues</NAME>
+		<PASSES>1039</PASSES>
+	</Pass_player>
+
+</STAT_PASSES>

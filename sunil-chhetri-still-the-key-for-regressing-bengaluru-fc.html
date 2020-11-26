@@ -1,0 +1,95 @@
+<html>
+<title>SportsHub</title>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    
+      rel="stylesheet">
+      <link rel="icon" href="l1.jpeg" type="image/gif" sizes="16x16">
+     <script src="javascript.js"></script> 
+      
+    <body bgcolor="#EDEEF0">
+
+
+
+
+        <div class="news-article-container">
+            <img class="news-page-images" src="football/sunil-chhetri.jfif" alt="image">
+            <h2>Sunil Chhetri still the key for regressing Bengaluru FC</h2>
+            <li class="news-page-more">Unlike in previous seasons in Indian football, you don't really know what to expect from Bengaluru FC (BFC) at the start of the Indian Super League (ISL) this time around.</li>
+            <li class="news-page-more">Since they were founded in 2013, BFC have shown enough adaptability under different coaches to make themselves contenders in every competition they play. From Ashley Westwood's fit, super-professional mix of youth and experience, which Albert Roca inherited and fine-tuned into one of the best models of clinical, possession-based attack, to Carles Cuadrat's side, which married defensive grit with set-piece excellence -- they all knew how to win the games that mattered.</li>
+            <li class="news-page-more">Except in 2019-20. When Ashique Kuruniyan pounced on a rare ATK defensive blunder at Salt Lake Stadium, putting BFC 2-0 to the good with an away goal in the semis, the prospect of a Fatorda final looked good. It required ATK to score three times to progress... exactly what the champions ended up doing.</li>
+            <li class="news-page-more">If you could pick one word for why the BFC of last season looked a little different from the two before, it would be Miku. The Venezuelan's chemistry with captain Sunil Chhetri had worked so well during his two years at BFC that they were regularly pinching matches, even ones where they weren't the dominant team.</li>
+        </div>
+
+        <header>
+       
+            <a href="index.html"> <img class=logo src="logo.png"alt="logo"> </a>
+             <nav>
+                 <ul class="nav-links" id="Menuitems">
+   
+                       <li><a href="cricket.html">Cricket</a></li>
+                       <li><a href="football.html">Football</a></li>
+                       <li><a href="f1-chess-kabaddi.html#f1-page">F1</a></li>
+                       <li><a href="f1-chess-kabaddi.html#chess-page">Chess</a></li>
+                       <li><a href="f1-chess-kabaddi.html#kabaddi-page">Kabaddi</a></li>
+                 </ul>
+                 
+             </nav>
+             <div id="button">
+                <a href="logout.php"><button type="button" id="log">Logout</button></a>
+                </div>
+                <button class="checkbtn" onclick="menutoggle()"><i class="material-icons">menu</i></button>
+                <script>
+                   var Menuitems= document.getElementById("Menuitems");
+                   
+                   Menuitems.style.maxHeight="0px";
+                   
+                   function menutoggle(){
+                       if(Menuitems.style.maxHeight=="0px"){
+                           Menuitems.style.maxHeight="400px";
+                       }
+                       else{
+                           Menuitems.style.maxHeight="0px";
+                       }
+                   }
+               </script>
+                    
+                 </label>
+                 
+         </header>
+
+
+
+         <div class="container">
+            <ul class="featured-line">
+                <li><ins>Featured</ins></li>
+            </ul>
+            <ul class="featured-list">
+                
+                <li><img class="league-logo" src="logoipl.png" alt="logo"><a href="ipl-table.html">Ipl 2020</a></li>
+                <li><img class="league-logo" src="logolaliga.png" alt=""><a href="Liga-Table.html">LaLiga</a></li>
+                <li><img class="league-logo" src="logocl.png" alt="logo"><a href="cl.html">Champions League</a></li>
+                <li><img class="league-logo" src="logoisl.png" alt="logo"><a href="isl-table.html">ISL</a></li>
+                <li><img class="league-logo-pl" src="logopl.png" alt="logo"><a href="pl-table.html">Premier League</a></li>
+                <li><img class="league-logo" src="logopkl.png" alt="logo"><a href="prokab.html">ProKabaddi</a></li>
+                <li><img class="league-logo-f1" src="logof1.png" alt="logo"><a href="f1.html">F1</a></li>
+            </ul>
+        </div>
+       
+        <div class="quick-links-container">
+            <ul class="quick-links-line">
+                <li><ins>Quick Link</ins></li>
+            </ul>
+            <ul class="quick-links-list">
+                <li><img class="social-link-logo" src="facebook.png" alt="logo"><a href="#">Facebook</a></li>
+                <li><img class="social-link-logo" src="twitter.png" alt=""><a href="#">Twitter</a></li>
+                <li><img class="social-link-logo" src="instagram.png" alt="logo"><a href="#">Instagram </a></li>
+                <li><img class="social-link-logo" src="linkedin.png" alt="logo"><a href="#">Linked In</a></li>
+                
+            </ul>
+        </div>
+
+
+        

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="css/pl table 2.xsl"?>
+<LSTAT_PASSES>
+	
+	<LPass_player>
+		<RANK>1</RANK>
+		<NAME>Pau</NAME>
+		<PASSES>606</PASSES>
+	</LPass_player>
+	
+	<LPass_player>
+		<RANK>2</RANK>
+		<NAME>R. ALBIOL</NAME>
+		<PASSES>557</PASSES>
+	</LPass_player>
+	
+	<LPass_player>
+		<RANK>3</RANK>
+		<NAME>SERGIO RAMOS</NAME>
+		<PASSES>542</PASSES>
+	</LPass_player>
+
+	<LPass_player>
+		<RANK>4</RANK>
+		<NAME>PAREJO</NAME>
+		<PASSES>531</PASSES>
+	</LPass_player>
+
+	<LPass_player>
+		<RANK>5</RANK>
+		<NAME>PEDRO MOSQUERA</NAME>
+		<PASSES>521</PASSES>
+	</LPass_player>
+
+</LSTAT_PASSES>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="css/cl.xsl"?>
+<CLSTAT_PASSES>
+	
+	<CLPass_player>
+		<RANK>1</RANK>
+		<NAME>Raphael Guerreiro</NAME>
+		<PASSES>279</PASSES>
+	</CLPass_player>
+	
+	<CLPass_player>
+		<RANK>2</RANK>
+		<NAME>Axel Witsel</NAME>
+		<PASSES>275</PASSES>
+	</CLPass_player>
+	
+	<CLPass_player>
+		<RANK>3</RANK>
+		<NAME>Leonardo Bonucci</NAME>
+		<PASSES>272</PASSES>
+	</CLPass_player>
+
+	<CLPass_player>
+		<RANK>4</RANK>
+		<NAME>Kurt Zouma</NAME>
+		<PASSES>266</PASSES>
+	</CLPass_player>
+
+	<CLPass_player>
+		<RANK>5</RANK>
+		<NAME>Diego Carlos</NAME>
+		<PASSES>262</PASSES>
+	</CLPass_player>
+
+</CLSTAT_PASSES>

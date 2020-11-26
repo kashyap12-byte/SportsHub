@@ -1,0 +1,303 @@
+.logo-head
+{
+    cursor: pointer;
+}
+
+.body
+{
+	margin: 0;
+	font-family: sans-serif;
+	font-style: 11px ;
+	background: white;
+	background-attachment: fixed;
+}
+
+.table
+{
+	top: 100px;
+	width: 800px;
+	position: relative;
+
+}
+
+.table,th,td
+{
+	border: 2px solid black;
+	border-collapse: collapse;
+	opacity: 0.95;
+}
+
+.th,td
+{
+	padding: 10px ;
+	text-align: center;
+}	
+
+.th
+{
+	font-weight: bold;
+}
+
+tr:nth-child(even)
+	{
+			background-color: #e8e8e8;
+	}
+
+tr:nth-child(odd)
+	{
+			background-color: white;
+	}
+
+#heading
+{
+	background-color: #04fb84;
+	color: white;
+}
+
+.club-logo
+{
+    padding: 0 10px;
+    width: 30px;
+    height: 30px;
+
+}
+
+.club-name
+{
+	text-align: left;
+}
+
+.club-qualify-name
+{
+	background-color: #80ff80;
+	text-align: left;
+}
+
+.club-qualify
+{
+	background-color: #80ff80;
+	text-align: center;
+}
+
+.club-relegate-name
+{
+	background-color: #ff4d4d;
+	text-align: left;
+}
+
+.club-relegate
+{
+	background-color: #ff4d4d;
+	text-align: center;
+}
+
+.PL-logo
+{
+	padding: 0 10px;
+    width: 400px;
+    height: 110px;
+}
+
+.form
+{
+	padding: 0 0px;
+    width: 20px;
+    height: 20px;
+}
+
+.stats
+{
+	display: grid;
+	grid-template-columns: auto auto auto auto; 
+}
+
+
+.stats-img
+{
+	text-align: center;
+	font-size: larger;
+	color: white;
+	height: 225px;
+	width: 225px;
+}
+
+.stats-colour
+{
+	background-color: #ff2882;
+}
+
+.goals-players
+{
+	width: 300px;
+	border: 2px solid black;
+	border-collapse: collapse;
+	opacity: 0.95;
+	font-size: large;
+}
+
+.assists-players
+{
+	width: 300px;
+	border: 2px solid black;
+	border-collapse: collapse;
+	opacity: 0.95;
+	font-size: large;
+}
+
+.passes-players
+{
+	width: 300px;
+	border: 2px solid black;
+	border-collapse: collapse;
+	opacity: 0.95;
+	font-size: large;
+}
+
+.cleansheets-players
+{
+	width: 300px;
+	border: 2px solid black;
+	border-collapse: collapse;
+	opacity: 0.95;
+	font-size: large;
+}
+
+.stats-team
+{
+	display: grid;
+	grid-template-columns: auto auto auto auto; 
+}
+
+
+.goals-team
+{
+	width: 300px;
+	border: 2px solid black;
+	border-collapse: collapse;
+	opacity: 0.95;
+	font-size: large;
+}
+
+.passes-team
+{
+	width: 300px;
+	border: 2px solid black;
+	border-collapse: collapse;
+	opacity: 0.95;
+	font-size: large;
+}
+
+.cleansheets-team
+{
+	width: 300px;
+	border: 2px solid black;
+	border-collapse: collapse;
+	opacity: 0.95;
+	font-size: large;
+}
+
+.crosses-team
+{
+	width: 300px;
+	border: 2px solid black;
+	border-collapse: collapse;
+	opacity: 0.95;
+	font-size:large;
+}
+
+.club-img
+{
+	height: 227px;
+}
+
+
+
+
+
+.logo{
+    cursor: pointer;
+}
+
+li, a{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+
+header{
+  
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(31, 29, 29); 
+    top: 0;
+    
+}
+
+.nav-links{
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.nav-links li a{
+    transition: ease 0s;
+
+}
+
+.nav-links li a:hover{
+    color: #ff7f27;
+}
+
+.login-signup{
+    list-style: none;
+}
+
+.login-signup li{
+    display: inline-block;
+    
+}
+
+#button{
+  margin-left: auto;
+  margin-right: 0;
+  padding: 0 20px;
+  
+}
+
+#log{
+    background-color: #ff7f27;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+}
+#log:hover{
+background-color: #ff9a43;
+
+}
+
+#sign{
+    background-color: #ff7f27;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+#sign:hover{
+    background-color: #ff9a43;
+}

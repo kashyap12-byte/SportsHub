@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="css/cl.xsl"?>
+<STAT_CLGOALS>
+	
+	<CLGoal_player>
+		<RANK>1</RANK>
+		<NAME>Diogo Jota</NAME>
+		<GOALS>4</GOALS>
+	</CLGoal_player>
+	
+	<CLGoal_player>
+		<RANK>2</RANK>
+		<NAME>Marcus Rashford</NAME>
+		<GOALS>4</GOALS>
+	</CLGoal_player>
+	
+	<CLGoal_player>
+		<RANK>3</RANK>
+		<NAME>Alvaro Morata</NAME>
+		<GOALS>4</GOALS>
+	</CLGoal_player>
+
+	<CLGoal_player>
+		<RANK>4</RANK>
+		<NAME>Erling Braut Haaland</NAME>
+		<GOALS>4</GOALS>
+	</CLGoal_player>
+
+	<CLGoal_player>
+		<RANK>5</RANK>
+		<NAME>Alassane Plea</NAME>
+		<GOALS>3</GOALS>
+	</CLGoal_player>
+
+</STAT_CLGOALS>

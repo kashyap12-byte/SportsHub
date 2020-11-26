@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="css/isl table.xsl"?>
+<ISTAT_GOALS>
+	
+	<IGoal_player>
+		<RANK>1</RANK>
+		<NAME>Bartholpmew Ogbeche</NAME>
+		<GOALS>15</GOALS>
+	</IGoal_player>
+	
+	<IGoal_player>
+		<RANK>2</RANK>
+		<NAME>Nerijus Valskis</NAME>
+		<GOALS>15</GOALS>
+	</IGoal_player>
+	
+	<IGoal_player>
+		<RANK>3</RANK>
+		<NAME>Roy Krishna</NAME>
+		<GOALS>15</GOALS>
+	</IGoal_player>
+
+	<IGoal_player>
+		<RANK>4</RANK>
+		<NAME>Ferran Corominas</NAME>
+		<GOALS>14</GOALS>
+	</IGoal_player>
+
+	<IGoal_player>
+		<RANK>5</RANK>
+		<NAME>Hugo Boumous</NAME>
+		<GOALS>11</GOALS>
+	</IGoal_player>
+
+</ISTAT_GOALS>

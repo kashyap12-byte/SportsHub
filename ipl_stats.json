@@ -1,0 +1,179 @@
+{
+	"stats":
+	{
+		"info":
+		[
+			{
+				"POS": "1",
+				"PLAYER":"KL Rahul",
+				"MAT": "14",
+				"INN": "14",
+				"NO":"2",
+				"RUNS":"670",
+				"HS":"132*",
+				"AVG":"55.83",
+				"BF":"518",
+				"SR":"129.34",
+				"CENTURY":"1",
+				"HALF_CENTURY":"5",
+				"FOURS":"58",
+				"SIXES":"23"
+			},
+
+			{
+				"POS": "2",
+				"PLAYER":"Shikhar Dhawan",
+				"MAT": "17",
+				"INN": "17",
+				"NO":"3",
+				"RUNS":"618",
+				"HS":"106*",
+				"AVG":"44.14",
+				"BF":"427",
+				"SR":"144.73",
+				"CENTURY":"2",
+				"HALF_CENTURY":"4",
+				"FOURS":"67",
+				"SIXES":"12"
+			},
+
+			{
+				"POS": "3",
+				"PLAYER":"David Warner",
+				"MAT": "16",
+				"INN": "16",
+				"NO":"2",
+				"RUNS":"548",
+				"HS":"85*",
+				"AVG":"39.14",
+				"BF":"407",
+				"SR":"134.64",
+				"CENTURY":"0",
+				"HALF_CENTURY":"4",
+				"FOURS":"52",
+				"SIXES":"14"
+			},
+
+			{
+				"POS": "4",
+				"PLAYER":"Shreyas Iyer",
+				"MAT": "17",
+				"INN": "17",
+				"NO":"2",
+				"RUNS":"519",
+				"HS":"88*",
+				"AVG":"34.60",
+				"BF":"421",
+				"SR":"123.27",
+				"CENTURY":"0",
+				"HALF_CENTURY":"3",
+				"FOURS":"40",
+				"SIXES":"16"
+			},
+
+			{
+				"POS": "5",
+				"PLAYER":"Ishan Kishan",
+				"MAT": "14",
+				"INN": "13",
+				"NO":"4",
+				"RUNS":"516",
+				"HS":"99",
+				"AVG":"57.33",
+				"BF":"354",
+				"SR":"145.76",
+				"CENTURY":"0",
+				"HALF_CENTURY":"4",
+				"FOURS":"36",
+				"SIXES":"30"
+			},
+
+			{
+				"POS": "6",
+				"PLAYER":"Quinton de Kock",
+				"MAT": "16",
+				"INN": "16",
+				"NO":"2",
+				"RUNS":"503",
+				"HS":"78*",
+				"AVG":"35.92",
+				"BF":"358",
+				"SR":"140.50",
+				"CENTURY":"0",
+				"HALF_CENTURY":"4",
+				"FOURS":"46",
+				"SIXES":"22"
+			},
+
+			{
+				"POS": "7",
+				"PLAYER":"Suryakumar Yadav",
+				"MAT": "16",
+				"INN": "15",
+				"NO":"3",
+				"RUNS":"480",
+				"HS":"79*",
+				"AVG":"40.00",
+				"BF":"331",
+				"SR":"145.01",
+				"CENTURY":"0",
+				"HALF_CENTURY":"4",
+				"FOURS":"61",
+				"SIXES":"11"
+			},
+
+			{
+				"POS": "8",
+				"PLAYER":"Devdutt Padikkal",
+				"MAT": "15",
+				"INN": "15",
+				"NO":"0",
+				"RUNS":"473",
+				"HS":"74",
+				"AVG":"31.53",
+				"BF":"379",
+				"SR":"124.80",
+				"CENTURY":"0",
+				"HALF_CENTURY":"5",
+				"FOURS":"51",
+				"SIXES":"8"
+			},
+
+			{
+				"POS": "9",
+				"PLAYER":"Virat Kohli",
+				"MAT": "15",
+				"INN": "15",
+				"NO":"4",
+				"RUNS":"466",
+				"HS":"90*",
+				"AVG":"45.40",
+				"BF":"384",
+				"SR":"121.35",
+				"CENTURY":"0",
+				"HALF_CENTURY":"3",
+				"FOURS":"23",
+				"SIXES":"11"
+			},
+
+			{
+				"POS": "10",
+				"PLAYER":"AB de Villiers",
+				"MAT": "15",
+				"INN": "14",
+				"NO":"4",
+				"RUNS":"454",
+				"HS":"73*",
+				"AVG":"45.40",
+				"BF":"286",
+				"SR":"158.74",
+				"CENTURY":"0",
+				"HALF_CENTURY":"5",
+				"FOURS":"33",
+				"SIXES":"23"
+			}
+
+		]
+	}
+}
+
